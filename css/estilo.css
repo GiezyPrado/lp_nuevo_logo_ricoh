@@ -1,0 +1,262 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html{
+	font-size: 16px;
+}
+
+body{
+	font-size: 0px;
+	overflow-x: hidden;
+	background-color: #D8D3D2;
+}
+
+
+.MenuPrincipal{
+	background-color: #895043;
+	height: 50px;
+	text-align: center;
+	position: fixed;
+	width: 100%;
+	top: 0px;
+	z-index: 1;
+	font-family: sans-serif;
+}
+
+.opcion{
+	font-size: 1rem;
+	text-decoration: none;
+	vertical-align: top;
+	display: inline-block;
+	padding: 0px 30px;
+	line-height: 50px;
+	color: #F39682;
+}
+
+.opcion:hover{
+	background-color: rgba(0, 0, 0, 0.5);
+}
+
+.logo{
+  height: 110px;
+}
+
+
+
+.contenido{
+	height: 600px;
+}
+
+.ENTERATE-DE{
+	background-color: rgba(5, 0, 0.4, 0.4);
+	margin-top: 80px;
+}
+
+.equipo{
+	background-color: rgba(60, 40, 0.4, 0.9);
+	background-size: cover;
+	margin-top: 80px;
+	height: 175px;
+  margin-bottom: 30px;
+}
+
+
+
+
+#datos{
+	top: 50px;
+	position: relative;
+	padding-top: 30px;
+}
+
+#formulario{
+	width: 500px;
+	height: 300px;
+	margin: 0 auto;
+	text-align: center;
+	border: 1px solid #000000;
+	font-size: 1rem;
+	padding-top: 50px;
+	background-color: #A8A6A6;
+}
+
+#formulario legend{
+	font-size: 25px;
+	color: #771803;
+	background-color: #fff;
+	padding: 2px 10px;
+	font-family: sans-serif;
+}
+
+.subtitulo{
+	text-align: center;
+	padding-bottom: 15px;
+	font-size: 15px;
+	color: #771803;
+	font-family: sans-serif;
+}
+
+#celdas{
+	padding: 10px;
+	align-content: center;
+}
+
+.contenedor{
+	margin-top: 80px;
+}
+
+
+
+
+#presentacion{
+  border: 2px solid #FB6856;
+  background: rgba(128, 128, 120, 0.3);
+  padding: 0.55cm;
+  float:left;
+  width:525px;
+  height:130px;
+  margin: 30px auto;
+  margin-top: 120px;
+  margin-left: 45px;
+}
+
+#presentacion p{
+  font-size: 20px;
+  float:center;
+  text-align:center;
+  color: #fff;
+  text-align: center;
+  margin-top: -15px;
+}
+
+#presentacion2{
+  border: 2px solid #FB6856;
+  background: rgba(128, 128, 120, 0.3);
+  padding: 0.55cm;
+  float:left;
+  width:525px;
+  height:130px;
+  margin: 30px auto;
+  margin-top: 30px;
+  margin-left: -22px;
+}
+
+#presentacion2 p{
+  font-size: 20px;
+  float:center;
+  text-align:center;
+  color: #fff;
+
+  text-align: center;
+  margin-top: -15px;
+}
+
+
+
+
+
+ #flotante2{
+  width: 30%;
+  height: 300px;
+  margin: 10px;
+  float: right;
+  font-family: sans-serif;
+  display: inline-block;
+  border: 1px solid #C1753F;
+  box-shadow: 2px 5px 2px #F83B3B;
+  margin-right: 25px;
+  border-radius: 0.5cm;
+}
+
+ #flotante3{
+  width: 30%;
+  height: 300px;
+  margin: 10px;
+  float: right;
+  font-family: sans-serif;
+  font-size: 21px;
+  margin-right: 25px;
+  text-align: center;
+  color: #fff;
+}
+
+
+
+
+
+.frase-motivadora{
+  border: 2px solid #FB6856;
+  background: rgba(0, 0, 0, 0.6);
+  padding: 0.55cm;
+  float:center;
+  width:1150px;
+  height:170px;
+  margin: 30px auto;
+}
+
+.frase-motivadora p{
+  font-size: 20px;
+  float:center;
+  text-align:center;
+  color: #fff;
+  text-align: center;
+  margin-top: 9px;
+}
+
+.frase-motivadora h4{
+  font-size: 20px;
+  float:center;
+  color: #fff;
+  text-align: center;
+  margin-top: 35px;
+}
+
+.frase-motivadora span{
+	font-weight: bold;
+	color: snow;
+}
+
+
+
+
+
+
+
+footer{
+  background-color: #000000;
+  height: 250px;
+}
+
+footer h3{
+  font-size: 20px;
+  text-align:center;
+  color: rgba(128, 128, 120, 0.8);
+  text-align: center;
+  margin-top: -5px;
+  padding-top: 30px;
+  padding-right: 70px;
+  padding-left: 70px;
+}
+
+footer h4{
+  font-size: 20px;
+  text-align:center;
+  color: rgba(128, 128, 120, 0.8);
+  text-align: center;
+  margin-top: 5px;
+}
+
+footer span{
+	font-weight: bold;
+	color: snow;
+}
+
+footer img{
+  width: 200px;
+  margin-top: 5px;
+  opacity: 40%;
+  margin-left: 530px;
+}

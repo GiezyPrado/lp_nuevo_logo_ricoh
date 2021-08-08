@@ -1,0 +1,82 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	background: url("../media/PORTADA2.jpg") no-repeat fixed;
+	background-size: cover;
+
+}
+
+.contenedor .formulario .form-header .form-title{
+	font-weight: normal;
+	font-family: sans-serif;
+	color: #fff;
+	text-align: center;
+	padding: 14px 0px;
+}
+
+.contenedor .formulario .form-header .form-title span{
+	color: #fff;
+}
+
+.contenedor .formulario{
+	background: rgba(0, 0, 0, 0.8);
+	width: 90%;
+	max-width: 650px;
+	margin: auto;
+	padding: 5px 35px;
+	margin-top: 30px;
+	padding-bottom: 30px;
+	border-radius: 3px;
+	margin-right: 25px;
+	margin-bottom: 25px;
+
+}
+
+.contenedor .formulario .form-label{
+	display: block;
+	color: #fff;
+	font-size: 16px;
+	font-family: sans-serif;
+	position: relative;
+}
+
+.contenedor .formulario .form-input, .form-textarea{
+	background: rgba(0, 0, 0.9, 0.7);
+	border: none;
+	outline: none;
+	border-bottom: 2px solid #FB8B40;
+	width: 100%;
+	padding: 12px;
+	margin-bottom: 20px;
+	border-radius: 2px;
+	font-size: 14px;
+	color: #fff;
+	font-family: sans-serif;
+}
+
+.contenedor .formulario .form-textarea{
+	resize: vertical;
+	max-height: 150px;
+	min-height: 50px;
+}
+
+.contenedor .formulario .btn-submit{
+	width: 100%;
+	font-family: sans-serif;
+	outline: none;
+	background: #771803;
+	font-size: 16px;
+	border: none;
+	color: #fff;
+	padding: 15px 0px;
+	cursor: pointer;
+	transition: all .5s ease;
+}
+
+.contenedor .formulario .btn-submit:hover{
+	background: #F29718;
+}
